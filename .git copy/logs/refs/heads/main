@@ -1,0 +1,35 @@
+0000000000000000000000000000000000000000 85965cbefa51571503bb55c1775d19c055455937 tthescott <sr24unme@gmail.com> 1711488169 -0700	clone: from https://github.com/GU-2024-Spring-CPSC224/final-team-project-good-noodles.git
+85965cbefa51571503bb55c1775d19c055455937 a03323a86ced330065706a7cdb7ad5d5db92cc5d tthescott <sr24unme@gmail.com> 1711492881 -0700	pull: Fast-forward
+a03323a86ced330065706a7cdb7ad5d5db92cc5d c674dca676485c5242c8157860cf227277e73e20 tthescott <sr24unme@gmail.com> 1712193071 -0700	pull: Fast-forward
+c674dca676485c5242c8157860cf227277e73e20 d1023266eeba8d32b3ed76d7356841f2bf0c47a9 tthescott <sr24unme@gmail.com> 1712869709 -0700	pull --tags origin main: Fast-forward
+d1023266eeba8d32b3ed76d7356841f2bf0c47a9 6bc143e8cadd227bf262ed74153c1f49d04a0272 tthescott <sr24unme@gmail.com> 1714105394 -0700	pull: Fast-forward
+6bc143e8cadd227bf262ed74153c1f49d04a0272 e50be4bec9758eed8abc46ee1892622227d4be19 tthescott <sr24unme@gmail.com> 1714362581 -0700	merge cashOutPanel: Fast-forward
+e50be4bec9758eed8abc46ee1892622227d4be19 6b2a554a4ceca5e13d19c86be2682dc70b99227e tthescott <sr24unme@gmail.com> 1714364174 -0700	commit: stuff
+6b2a554a4ceca5e13d19c86be2682dc70b99227e 45060b1d5888e912cc2541a681bd02f9ae775af7 tthescott <sr24unme@gmail.com> 1714432532 -0700	pull: Fast-forward
+45060b1d5888e912cc2541a681bd02f9ae775af7 a4e48c4dbb375e6bb290327fb3aa183cabf09de8 tthescott <sr24unme@gmail.com> 1714436529 -0700	commit: started collision
+a4e48c4dbb375e6bb290327fb3aa183cabf09de8 585ac4d6cda55dcd722bb71ffda9550d2a3b696e tthescott <sr24unme@gmail.com> 1714436532 -0700	pull --tags origin main: Merge made by the 'ort' strategy.
+585ac4d6cda55dcd722bb71ffda9550d2a3b696e 366e1ab0e3f1cdadebca9ba4e4baf1e36fa8784f tthescott <sr24unme@gmail.com> 1714443165 -0700	commit: fixed collision and body color
+366e1ab0e3f1cdadebca9ba4e4baf1e36fa8784f 25a9d80db4e58c2cf1eb3ea3d7fd8ab34ed28497 tthescott <sr24unme@gmail.com> 1714443530 -0700	commit: trace
+25a9d80db4e58c2cf1eb3ea3d7fd8ab34ed28497 ee176b52ac4fb2d46cc2c360f32ace62b9351415 tthescott <sr24unme@gmail.com> 1714443627 -0700	pull: Fast-forward
+ee176b52ac4fb2d46cc2c360f32ace62b9351415 f478f4af6c64c59ba1b48bbdc4627ab381c81b6d tthescott <sr24unme@gmail.com> 1714447807 -0700	pull --tags origin main: Fast-forward
+f478f4af6c64c59ba1b48bbdc4627ab381c81b6d 4ded0920a0ef75206a85b045a2dbf73cd944f21b tthescott <sr24unme@gmail.com> 1714449101 -0700	commit: setup for next changes
+4ded0920a0ef75206a85b045a2dbf73cd944f21b 34243be647b3d3684c8d480990f193466fc1e4de tthescott <sr24unme@gmail.com> 1714467261 -0700	commit: The big one. I cooked
+34243be647b3d3684c8d480990f193466fc1e4de acd0ca732471c5a36dca4635b114466d67792576 tthescott <sr24unme@gmail.com> 1714514358 -0700	commit: added and implemented ball counter, read in bet amount for each ball, made the balls SimulationBodys (no more Ball class)
+acd0ca732471c5a36dca4635b114466d67792576 f2241721f79c351d2eb462556b01aa30aa468e2a tthescott <sr24unme@gmail.com> 1714532808 -0700	pull: Fast-forward
+f2241721f79c351d2eb462556b01aa30aa468e2a 9ba5f206ddd8a82d250b4d1cc01a5bd985d622e7 tthescott <sr24unme@gmail.com> 1714584907 -0700	commit: setup GUI for trace setting
+9ba5f206ddd8a82d250b4d1cc01a5bd985d622e7 b17ae39cf702656e4986c40a837e35caee4a4ea5 tthescott <sr24unme@gmail.com> 1714586041 -0700	commit: implemented trace setting
+b17ae39cf702656e4986c40a837e35caee4a4ea5 029ae55b43628fd0993f19c5f97700e09c574912 tthescott <sr24unme@gmail.com> 1714588994 -0700	commit: fixed cash out font
+029ae55b43628fd0993f19c5f97700e09c574912 2d7fa9b646f43fca42788dfcce6e9e689cb2d342 tthescott <sr24unme@gmail.com> 1714599468 -0700	pull: Fast-forward
+2d7fa9b646f43fca42788dfcce6e9e689cb2d342 6fed8f3b14069f6b8ca7932646a397cb0ba8117b tthescott <sr24unme@gmail.com> 1714606526 -0700	commit: made bodies black and stopped crashing by fixing the physics engine
+6fed8f3b14069f6b8ca7932646a397cb0ba8117b 88ebdf5551ce1436e675baa3851c8064e812976a tthescott <sr24unme@gmail.com> 1714607038 -0700	commit: stopped outputting debugs and stopped changing multiplier color
+88ebdf5551ce1436e675baa3851c8064e812976a 14f19089cbbc07cb4ab816eb76c734950fb389b1 tthescott <sr24unme@gmail.com> 1714608603 -0700	commit: removed attributes that aren't used, fixed trace mode reset
+14f19089cbbc07cb4ab816eb76c734950fb389b1 35389c2dd6451a4a46816409e3543435ed53159e tthescott <sr24unme@gmail.com> 1714615562 -0700	commit: added a new ad
+35389c2dd6451a4a46816409e3543435ed53159e ec66b94df39f5ed72bad9d97847052786756887c tthescott <sr24unme@gmail.com> 1714681869 -0700	pull: Fast-forward
+ec66b94df39f5ed72bad9d97847052786756887c 482acc3397fe7b738be9f072fa5c02f1518ca6f1 tthescott <sr24unme@gmail.com> 1714695825 -0700	commit: started bucket labels
+482acc3397fe7b738be9f072fa5c02f1518ca6f1 82c3d77b64a87037d3d425b71fa8f25ab103fabd tthescott <sr24unme@gmail.com> 1714702268 -0700	commit: completed bucket labels and cleaned up
+82c3d77b64a87037d3d425b71fa8f25ab103fabd b434ab5c3fefc3e44308065a780a730e51367352 tthescott <sr24unme@gmail.com> 1714761605 -0700	pull: Fast-forward
+b434ab5c3fefc3e44308065a780a730e51367352 e85f3a2bcf0d5fb9deb84354cd9e7668aa8e8994 tthescott <sr24unme@gmail.com> 1714762301 -0700	commit: played the game
+e85f3a2bcf0d5fb9deb84354cd9e7668aa8e8994 e0ec762bf35d3e4411ae30ae40568bcf855ef2ac tthescott <sr24unme@gmail.com> 1714962844 -0700	commit: added shrek dependency, now program is complete
+e0ec762bf35d3e4411ae30ae40568bcf855ef2ac 23e8f8d01be2169f5f77fbabab73ddd9bb624a4d tthescott <sr24unme@gmail.com> 1714962869 -0700	pull --tags origin main: Merge made by the 'ort' strategy.
+23e8f8d01be2169f5f77fbabab73ddd9bb624a4d cf561d7dcda85d3cb8605a97d625cdb36ee9f1cc tthescott <sr24unme@gmail.com> 1715199311 -0700	pull: Fast-forward
+cf561d7dcda85d3cb8605a97d625cdb36ee9f1cc 3e5629eb69e832343ea1f852220d0c4c3653c6ae tthescott <sr24unme@gmail.com> 1745877036 -0700	commit: nevermind

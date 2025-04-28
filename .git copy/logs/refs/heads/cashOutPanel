@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 d1023266eeba8d32b3ed76d7356841f2bf0c47a9 tthescott <sr24unme@gmail.com> 1712870019 -0700	branch: Created from main
+d1023266eeba8d32b3ed76d7356841f2bf0c47a9 bc7e15198165c41fdc4f352fd49cceb0eaa0f179 tthescott <sr24unme@gmail.com> 1714105159 -0700	commit: started cash out panel
+bc7e15198165c41fdc4f352fd49cceb0eaa0f179 19e79bec58f5c7c9c8cf95109c56106b700c11fa tthescott <sr24unme@gmail.com> 1714105408 -0700	merge main: Merge made by the 'ort' strategy.
+19e79bec58f5c7c9c8cf95109c56106b700c11fa 98fb6eab89674f3157e8f6f91dad6c95d7db2b0f tthescott <sr24unme@gmail.com> 1714120873 -0700	commit: big work on cash out panel, background and cash out button working
+98fb6eab89674f3157e8f6f91dad6c95d7db2b0f e167d648fc747dd788d0707e17baf3f58a89c6c3 tthescott <sr24unme@gmail.com> 1714121651 -0700	commit: tidied up cash out panel
+e167d648fc747dd788d0707e17baf3f58a89c6c3 dff50dd838d25260eb531113a0e965345c76839e tthescott <sr24unme@gmail.com> 1714172266 -0700	commit: cash out panel progress, added method to PlinkoGame
+dff50dd838d25260eb531113a0e965345c76839e 3ee426545dbe1cb7abd54d35bf0240db8c62e434 tthescott <sr24unme@gmail.com> 1714209774 -0700	commit: found out how to switch between panels, added methods to PlinkoGame, added IntroPanel background
+3ee426545dbe1cb7abd54d35bf0240db8c62e434 1f1d72f2f08622bd10e072ffb204adc179235a2b tthescott <sr24unme@gmail.com> 1714245996 -0700	commit: defined methods to switch to each panel
+1f1d72f2f08622bd10e072ffb204adc179235a2b 9da80d5aa3f90aaf43f913fa7c052495bd036edf tthescott <sr24unme@gmail.com> 1714246422 -0700	commit: cleaned up a bit + comments
+9da80d5aa3f90aaf43f913fa7c052495bd036edf 4e2574824d00788ed0f71405ebd4a95bd4d3e4ad tthescott <sr24unme@gmail.com> 1714294569 -0700	commit: added color parameter to multiple methods in SimulationPanel
+4e2574824d00788ed0f71405ebd4a95bd4d3e4ad e50be4bec9758eed8abc46ee1892622227d4be19 tthescott <sr24unme@gmail.com> 1714362533 -0700	commit: final before push
