@@ -25,20 +25,12 @@
 package edu.gonzaga;
 
 import java.io.IOException;
-import java.io.File;
 
 /** Main program class for launching your team's program. */
 public class Main {
     public static void main(String[] args) throws IOException {
-
-        // make a new plinko game and play it if Shrek exists
-        File shrek = new File("src/main/java/edu/gonzaga/Shrek.java");
-
-        if (shrek.isFile()){
-            PlinkoGame plinkoGame = new PlinkoGame();
-            plinkoGame.play();
-        }else{
-            System.out.println("something's missing");
-        }
+        // make a new plinko game and play it
+        PlinkoGame plinkoGame = new PlinkoGame();
+        plinkoGame.play();
     }
 }

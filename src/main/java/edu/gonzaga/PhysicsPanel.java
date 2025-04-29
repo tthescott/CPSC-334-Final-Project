@@ -11,6 +11,7 @@ import org.dyn4j.collision.*;
 import org.dyn4j.world.*;
 import org.dyn4j.world.listener.*;
 import org.dyn4j.geometry.*;
+import org.dyn4j.collision.CollisionBody;
 
 // the panel that contains the plinko physics simulation (goes inside PlayPanel)
 public class PhysicsPanel extends SimulationPanel {

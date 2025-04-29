@@ -4,6 +4,7 @@
 
 build:
 	@echo "Building Game package - results in target/ directory"
+	mvn clean
 	mvn package -DskipTests
 
 test:
