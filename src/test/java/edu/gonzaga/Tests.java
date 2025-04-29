@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 
-public class MainTest {
+public class Tests {
     @Test
     void alwaysTrue() {
         Assertions.assertTrue(true);

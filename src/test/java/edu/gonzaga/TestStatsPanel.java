@@ -18,13 +18,6 @@ public class TestStatsPanel {
         mainWindowFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         mainWindowFrame.setLocation(100,100);
     }
-//    void testHighestWinners() {
-//        StatsPanel statsPanel = new StatsPanel(plinkoGame);
-//        mainWindowFrame.getContentPane().add(BorderLayout.NORTH, statsPanel.getStatsHeaderPanel());
-//        mainWindowFrame.getContentPane().add(BorderLayout.CENTER, statsPanel.get());
-//        mainWindowFrame.pack();
-//        mainWindowFrame.setVisible(true);
-//    }
 
     public static void main(String [] args) throws IOException {
         TestStatsPanel app = new TestStatsPanel();    // Create, then run GUI
