@@ -45,4 +45,4 @@ lint-autofix:
 	mvn spotless:apply
 
 package:
-	jpackage --input target --dest dist --type app-image --main-jar finalgame-1.0.0.jar --main-class edu.gonzaga.Main --name Plinko
+	native-image -jar finalgame-1.0.0.jar Plinko
