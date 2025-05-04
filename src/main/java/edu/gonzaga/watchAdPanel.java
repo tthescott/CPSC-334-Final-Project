@@ -36,9 +36,9 @@ public class watchAdPanel extends javax.swing.JPanel {
         // set the background image
         try{
             if (imageNum.equals(6)){
-                this.background = ImageIO.read(new File("src/main/java/edu/gonzaga/media/" + imageNum.toString() + ".gif"));
+                this.background = ImageIO.read(getClass().getResourceAsStream("/edu/gonzaga/media/" + imageNum.toString() + ".gif"));
             }else{
-                this.background = ImageIO.read(new File("src/main/java/edu/gonzaga/media/" + imageNum.toString() + ".jpg"));
+                this.background = ImageIO.read(getClass().getResourceAsStream("/edu/gonzaga/media/" + imageNum.toString() + ".jpg"));
             }
         }catch(IOException e){
             System.out.println("watch ad image error");

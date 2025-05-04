@@ -29,9 +29,9 @@ public class IntroPanel extends javax.swing.JPanel {
 
         // set the background image
         try {
-            background = ImageIO.read(new File("src/main/java/edu/gonzaga/media/plinko.jpg"));
+            this.background = ImageIO.read(getClass().getResourceAsStream("/edu/gonzaga/media/plinko.jpg"));
         } catch (IOException e) {
-            System.out.println("Some ting wong with cash out panel's background image");
+            System.out.println("Some ting wong with intro panel's background image");
         }
         this.background = this.background.getScaledInstance(1100, 700, Image.SCALE_SMOOTH);
 

@@ -1,0 +1,13 @@
+name: Plinko
+run-name: Plinko Actions
+on: [push]
+jobs:
+    
+  build:
+    runs-on: [self-hosted, linux, CPSC334]
+      timeout-minutes: 2
+      steps:
+        - uses: actions/checkout@v4
+        - name: Build Jar File
+          run: |
+            make build

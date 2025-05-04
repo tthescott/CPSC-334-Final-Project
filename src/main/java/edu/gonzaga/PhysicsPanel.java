@@ -1,6 +1,5 @@
 package edu.gonzaga;
 
-import java.awt.Color;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Random;
@@ -11,7 +10,6 @@ import org.dyn4j.collision.*;
 import org.dyn4j.world.*;
 import org.dyn4j.world.listener.*;
 import org.dyn4j.geometry.*;
-import org.dyn4j.collision.CollisionBody;
 
 // the panel that contains the plinko physics simulation (goes inside PlayPanel)
 public class PhysicsPanel extends SimulationPanel {
@@ -122,13 +120,13 @@ public class PhysicsPanel extends SimulationPanel {
 
 		// read in files for each image
 		try{ // need try-catch for "unhandled IO exception"
-			image5x = ImageIO.read(new File("src/main/java/edu/gonzaga/media/5x.png"));
-			image3x = ImageIO.read(new File("src/main/java/edu/gonzaga/media/3x.png"));
-			image1x = ImageIO.read(new File("src/main/java/edu/gonzaga/media/1x.png"));
-			image08x = ImageIO.read(new File("src/main/java/edu/gonzaga/media/08x.png"));
-			image06x = ImageIO.read(new File("src/main/java/edu/gonzaga/media/06x.png"));
-			image04x = ImageIO.read(new File("src/main/java/edu/gonzaga/media/04x.png"));
-			image02x = ImageIO.read(new File("src/main/java/edu/gonzaga/media/02x.png"));
+			this.image5x = ImageIO.read(getClass().getResourceAsStream("/edu/gonzaga/media/5x.png"));
+			this.image3x = ImageIO.read(getClass().getResourceAsStream("/edu/gonzaga/media/3x.png"));
+			this.image1x = ImageIO.read(getClass().getResourceAsStream("/edu/gonzaga/media/1x.png"));
+			this.image08x = ImageIO.read(getClass().getResourceAsStream("/edu/gonzaga/media/08x.png"));
+			this.image06x = ImageIO.read(getClass().getResourceAsStream("/edu/gonzaga/media/06x.png"));
+			this.image04x = ImageIO.read(getClass().getResourceAsStream("/edu/gonzaga/media/04x.png"));
+			this.image02x = ImageIO.read(getClass().getResourceAsStream("/edu/gonzaga/media/02x.png"));
 		}catch (Exception e){
 			System.out.println("bucket label images broke :(");
 		}
