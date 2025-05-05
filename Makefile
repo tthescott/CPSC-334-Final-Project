@@ -44,5 +44,5 @@ lint-autofix:
 	@echo "Autofixing linting errors"
 	mvn spotless:apply
 
-package:
-	native-image -jar finalgame-1.0.0.jar Plinko
+package: # build deb package
+	
