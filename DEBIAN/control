@@ -1,0 +1,6 @@
+Package: Plinko
+Version: 1.0.0
+Architecture: all
+Maintainer: Scott Riddle, sriddle@zagmail.gonzaga.edu
+Description: A plinko game that uses the Dyn4j physics engine
+Depends: default-jre

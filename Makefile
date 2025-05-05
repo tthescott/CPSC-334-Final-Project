@@ -44,5 +44,5 @@ lint-autofix:
 	@echo "Autofixing linting errors"
 	mvn spotless:apply
 
-package: # build deb package
-	
+package:
+	./pkg.bash
